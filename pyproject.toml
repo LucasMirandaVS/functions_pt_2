@@ -6,7 +6,10 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
+pandera = "^0.22.1"
+pandas = "^2.2.3"
+fastparquet = "^2024.11.0"
 
 
 [build-system]
